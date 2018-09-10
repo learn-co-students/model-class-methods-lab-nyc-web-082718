@@ -11,6 +11,7 @@ describe Boat do
   describe "::dinghy" do
     it "returns boats shorter than 20 feet" do
       boats = ["Nacra 17", "Boston Whaler", "49er", "Laser", "Harpoon 4.7", "Sunfish"]
+      # binding.pry
       expect(Boat.dinghy.pluck(:name)).to eq(boats)
     end
   end
@@ -25,6 +26,7 @@ describe Boat do
   describe "::last_three_alphabetically" do
     it "returns last three boats in alphabetical order" do
       boats = ["Zodiac CZ7", "Triton 21 TRX", "Sunfish"]
+      # binding.pry
       expect(Boat.last_three_alphabetically.pluck(:name)).to eq(boats)
     end
   end
