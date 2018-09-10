@@ -18,7 +18,7 @@ sun_tracker = Boat.create(name: "Sun Tracker Regency 254 XP3", length: 27)
 harpoon = Boat.create(name: "Harpoon 4.7", length: 15.5)
 sunfish = Boat.create(name: "Sunfish", length: 13.7)
 
-h_28.captain = cook
+h_28.captain = cook 
 nacra_17.captain = kidd
 regulator.captain = william
 zodiac.captain = arel
